@@ -66,8 +66,15 @@ A modern responsive React fitness exercises app with the functionality to choose
 ### Terminate the server by CONTROL+C
 ### Have fun working out and learning exercises-related knowledge!
 # 🛠️  Developing Languages, Tools, and Techniques Needed
-
-
+[Vscode 1.74](https://code.visualstudio.com/updates/v1_74)<br/> 
+[npm/npx](https://www.npmjs.com/package/npx)<br/> 
+[React Native JS](https://reactjs.org/)<br/>
+[JavaScript](https://www.javascript.com/)<br/> 
+[ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)<br/> 
+[Yarn](https://yarnpkg.com/)<br/> 
+[RapidAPI ExerciseDB](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb)<br/> 
+[ESLint v2.2.6](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)<br/> 
+[RapidAPI Youtube Search and Download](https://rapidapi.com/h0p3rwe/api/youtube-search-and-download)<br/>
 
 
 
