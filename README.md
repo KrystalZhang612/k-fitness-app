@@ -75,11 +75,14 @@ A modern responsive React fitness exercises app with the functionality to choose
 [RapidAPI ExerciseDB](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb)<br/> 
 [ESLint v2.2.6](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)<br/> 
 [RapidAPI Youtube Search and Download](https://rapidapi.com/h0p3rwe/api/youtube-search-and-download)<br/>
-
-
-
-
-
+<div>
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title = "VSCODE" width ="60" height = "60"/>&nbsp; 
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" title = "NPM NPX" width ="60" height = "60"/>&nbsp; 
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title = "REACT" width ="60" height = "60"/>&nbsp; 
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title = "JAVASCRIPT" width ="60" height = "60"/>&nbsp; 
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/yarn/yarn-original.svg" title = "YARN" width ="60" height = "60"/>&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/images-attachments-collection/blob/main/rapidapi%20logo.png" title = "RAPIDAPI" width ="60" height = "60"/>&nbsp; 
+</div>
 
 
 
