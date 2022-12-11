@@ -124,9 +124,20 @@ Start the web server at localhost:3000:
 ```bash
 npm start
 ```
+# Synchronous Developing Notes
+
+
+
+
+
+
+
+
+
+
 # Debugging & Troubleshooting
 - Web server console error:
- `"Warning: You are importing createRoot from 'react-dom' which is not supported. You should instead import it from 'react-dom/client'".`
+ `"Warning: You are importing createRoot from 'react-dom' which is not supported. You should instead import it from 'react-dom/client'".`<br/> 
  DEBUGGING: In index.js: 
  ```JavaScript 
  import ReactDOM from 'react-dom/client';
