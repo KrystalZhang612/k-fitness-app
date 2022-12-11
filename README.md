@@ -8,5 +8,14 @@ A modern responsive React fitness exercises app with the functionality to choose
 ## K-Fitness App Overview:
 <p align ="center">
   <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-1.PNG">&nbsp; 
-  
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-2.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-3.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-4.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-5.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-6.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-7.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-8.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-9.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-10.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-11.PNG">&nbsp;
 </p>
