@@ -7,7 +7,6 @@ import PropTypes from 'prop-types';
 const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
     const [search, setSearch] = useState('');
     const [bodyParts, setBodyParts] = useState([]);
-
     useEffect(() => {
         const fetchExercisesData = async () => {
             const bodyPartsData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList',
