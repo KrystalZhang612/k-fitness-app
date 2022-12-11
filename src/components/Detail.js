@@ -50,9 +50,7 @@ const Detail = ({ exerciseDetail }) => {
         </Stack>
     );
 };
-
 Detail.propTypes = {
     exerciseDetail: PropTypes.object.isRequired,
 };
-
 export default Detail; 
