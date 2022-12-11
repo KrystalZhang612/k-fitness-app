@@ -19,3 +19,17 @@ A modern responsive React fitness exercises app with the functionality to choose
   <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-10.PNG">&nbsp; 
   <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-11.PNG">&nbsp;
 </p>
+
+# Build
+[Method to Run & Test the Project Locally]()<br/>
+[Prerequisites & Setups]()<br/>
+[Synchronous Developing Notes]()<br/>
+[Debugging & Troubleshooting]()<br/> 
+[Testing Result]()<br/> 
+[Tags and Topics]()<br/> 
+# Contribution
+[Author]()
+# Functionalities/Demo
+
+
+
