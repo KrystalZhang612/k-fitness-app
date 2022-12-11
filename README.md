@@ -84,6 +84,8 @@ A modern responsive React fitness exercises app with the functionality to choose
   <img src = "https://github.com/KrystalZhang612/images-attachments-collection/blob/main/rapidapi%20logo.png" title = "RAPIDAPI" width ="60" height = "60"/>&nbsp; 
 </div>
 
+# Prerequisites & Setups
+
 
 
 
