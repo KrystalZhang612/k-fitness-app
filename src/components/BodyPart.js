@@ -19,11 +19,9 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
         <Typography fontSize="24px" fontWeight="bold" fontFamily="Alegreya" color="#3A1212" textTransform="capitalize"> {item}</Typography>
     </Stack>
 );
-
 BodyPart.propTypes = {
     item: PropTypes.string.isRequired,
     setBodyPart: PropTypes.func.isRequired,
     bodyPart: PropTypes.string.isRequired,
 };
-
 export default BodyPart;
