@@ -81,11 +81,9 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         </Stack>
     );
 };
-
 SearchExercises.propTypes = {
     setExercises: PropTypes.func.isRequired,
     bodyPart: PropTypes.string.isRequired,
     setBodyPart: PropTypes.func.isRequired,
 };
-
 export default SearchExercises; 
