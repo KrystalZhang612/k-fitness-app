@@ -21,7 +21,7 @@ A modern responsive React fitness exercises app with the functionality to choose
 </p>
 
 # Build
-[Method to Run & Test the Project Locally]()<br/>
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setups]()<br/>
 [Synchronous Developing Notes]()<br/>
 [Debugging & Troubleshooting]()<br/> 
@@ -38,4 +38,47 @@ A modern responsive React fitness exercises app with the functionality to choose
 | npm 5.6.1+        | :white_check_mark: |
 | yarn 3.0.0+       | ✅                 |
 # Method to Run & Test the Project Locally
+### Download `git version 2.13.1 or higher`. Download git at https://git-scm.com/downloads
+### To check your version of git, run: `git --version`
+### Download `yarn 3.0. 0 or higher`. 
+### Download `node 16.15.1 or higher`. Download node at https://nodejs.org/en/download/
+### To check your version of node, run: `node --version`
+### Download `npm version 5.6.1 or higher` after installing node.
+### To check your version of npm, run: `npm --version`
+### Download the entire project folder and open it with any IDE.
+### Obtain a free ExerciseDB API at  https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb
+### Replace `YOUR EXERCISEDB API` in fetchData.js  with the obtained API.
+### Obtain a free YoutubeDownloadSearch API at  https://rapidapi.com/h0p3rwe/api/youtube-search-and-download
+### Replace `YOUR YOUTUBE DOWNLOAD AND SEARCH API` in fetchData.js with the obtained API.
+### Navigate to the project folder in local CMD
+### Install all necessary dependencies by running: `npm install`
+### `npm install axios`
+### `yarn add @emotion/react`
+### `yarn add @emotion/react @emotion/styled`
+### `yarn add @mui/icons-material`
+### `yarn add @mui/material`
+### `npm install --save react-horizontal-scroll-menu`
+### `yarn add react-loader-spinner`
+### `npm i react-router-dom`
+### `npm install --legacy-peer-deps`
+### `npm install react-horizontal-scrolling-menu`
+### Start the webserver to test K-Fitness App by running: `npm start` at localhost:3000
+### Terminate the server by CONTROL+C
+### Have fun working out and learning exercises-related knowledge!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
