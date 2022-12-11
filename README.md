@@ -24,7 +24,7 @@ A modern responsive React fitness exercises app with the functionality to choose
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setups]()<br/>
 [Synchronous Developing Notes]()<br/>
-[Debugging & Troubleshooting]()<br/> 
+[Debugging & Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#debugging--troubleshooting)<br/> 
 [Testing Result]()<br/> 
 [Tags and Topics]()<br/> 
 # Contribution
