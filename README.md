@@ -85,6 +85,66 @@ A modern responsive React fitness exercises app with the functionality to choose
 </div>
 
 # Prerequisites & Setups
+In Vscode Terminal, install all React App dependencies and packages by running:
+```bash 
+npx create-react-app ./
+```
+Create [index.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/index.js) in src and setup imports and roots rendering:
+```JavaScript 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+<App />
+```
+Create [App.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/App.js) in src and setup:
+```JavaScript 
+import React from 'react';
+const App = () => {
+    return (
+        <div>App</div>
+...export default App
+```
+Install needed dependencies:
+```bash
+ yarn add @emotion/react
+ yarn add @emotion/react @emotion/styled
+ yarn add @mui/icons-material
+ yarn add @mui/material
+ npm install --save react-horizontal-scroll-menu
+ yarn add react-loader-spinner
+ npm i react-router-dom
+```
+Audit all installed dependencies to the latest version:
+```bash 
+npm install --legacy-peer-deps
+```
+Start the web server at localhost:3000:
+```bash
+npm start
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
