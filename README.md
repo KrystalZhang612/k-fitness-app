@@ -124,8 +124,7 @@ Start the web server at localhost:3000:
 ```bash
 npm start
 ```
-
-
+# Debugging & Troubleshooting
 
 
 
