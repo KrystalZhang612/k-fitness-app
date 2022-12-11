@@ -6,3 +6,7 @@ A modern responsive React fitness exercises app with the functionality to choose
 
 ### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations will be subjected to copyright violation with sebsequent potential legal concerns.***
 ## K-Fitness App Overview:
+<p align ="center">
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/K-Fitness%20Overview-1.PNG">&nbsp; 
+  
+</p>
