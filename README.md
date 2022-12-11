@@ -22,7 +22,7 @@ A modern responsive React fitness exercises app with the functionality to choose
 
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
-[Prerequisites & Setups]()<br/>
+[Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#prerequisites--setups)<br/>
 [Synchronous Developing Notes]()<br/>
 [Debugging & Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#debugging--troubleshooting)<br/> 
 [Testing Result]()<br/> 
@@ -125,11 +125,13 @@ Start the web server at localhost:3000:
 npm start
 ```
 # Debugging & Troubleshooting
-
-
-
-
-
+- Web server console error:
+ `"Warning: You are importing createRoot from 'react-dom' which is not supported. You should instead import it from 'react-dom/client'".`
+ DEBUGGING: In index.js: 
+ ```JavaScript 
+ import ReactDOM from 'react-dom/client';
+ ```
+- 
 
 
 
