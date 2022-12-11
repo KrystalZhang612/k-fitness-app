@@ -28,9 +28,7 @@ const ExerciseCard = ({ exercise }) => {
         </Link>
     );
 };
-
 ExerciseCard.propTypes = {
     exercise: PropTypes.string.isRequired,
 };
-
 export default ExerciseCard; 
