@@ -65,7 +65,7 @@ A modern responsive React fitness exercises app with the functionality to choose
 ### Start the webserver to test K-Fitness App by running: `npm start` at localhost:3000
 ### Terminate the server by CONTROL+C
 ### Have fun working out and learning exercises-related knowledge!
-
+# 🛠️  Developing Languages, Tools, and Techniques Needed
 
 
 
