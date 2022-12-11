@@ -206,32 +206,143 @@ Install scroll menu:
  npm install react-horizontal-scrolling-menu
 ```
 ## ***Body Parts Components:***
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Implement Body parts exercises components as buttons in [BodyPart.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/BodyPart.js):
+```JavaScript
+type="button"
+        alignItems="center"
+        justifyContent="center"
+        className="bodyPart-card"
+        sx={bodyPart === item ? { borderTop: '4px solid #FF2625',
+background: '#fff', borderBottomLeftRadius: '20px', width: '270px',
+height: '282px', cursor: 'pointer', gap: '47px' } : { background:
+'#fff', borderBottomLeftRadius: '20px', width: '270px', height:
+'282px', cursor: 'pointer', gap: '47px' }}
+        onClick={() => {
+            setBodyPart(item);
+            window.scrollTo({ top: 1800, left: 100, behavior: 'smooth'
+});
+...
+```
+[body parts components are well customized.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/body%20parts%20components%20are%20well%20customized.PNG)<br/>
+## ***Exercise Cards Components:***
+Fetch exercise GIF cards binding data in [ExerciseCard.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/ExerciseCard.js):
+```JavaScript 
+const ExerciseCard = ({ exercise }) => {
+    return (
+        <Link className="exercise-card"
+to={`/exercise/${exercise.id}`}>
+            <img src={exercise.gifUrl} alt={exercise.name}
+loading="lazy" />
+        </Link>
+```
+Now search for “legs” and all legs results GIF exercises cards showed:<br/> 
+[legs cards gif results showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/legs%20cards%20gif%20results%20showed.PNG)<br/>
+Customize the cards buttons:
+```JavaScript 
+ <Button sx={{
+          ml: '21px', color: '#fff', background: '#ffa9a9',
+       fontSize: '14px', borderRadius: '20px', textTransform:
+'capitalize'
+                }}>
+          {exercise.bodyPart}
+</Button>
+```
+[cards with two buttons showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/cards%20with%20two%20buttons%20showed.PNG)<br/>
+Now fetch each card’s title:
+```JavaScript 
+ </Stack>
+     <Typography ml="21px" color="#000" fontWeight="bold" mt="11px"
+         pb="10px" textTransform="capitalize" fontSize="24px">
+        {exercise.name}
+     </Typography>
+```
+[cards titles showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/cards%20titles%20showed.PNG)<br/>
+Now implement the showing results slices pages in [Exercises.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/Exercises.js):
+```JavaScript 
+const [currentPage, setCurrentPage] = useState(1);
+    const exercisesPerPage = 9;
+    const indexOfLastExercise = currentPage * exercisesPerPage;
+    const indexOfFirstExercise = indexOfLastExercise -
+exercisesPerPage;
+ 
+const currentExercises = exercises.slice(indexOfFirstExercise,
+indexOfLastExercise);
+    const paginate = (e, value) => {
+...
+```
+[page slices showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/pages%20slices%20showed.PNG)<br/>
+Home page is finalized.
+## ***Exercise Details:***
+Fetch exercise cards details in [Detail.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/Detail.js):
+```JavaScript
+ <Stack sx={{ gap: { lg: '35px', xs: '20px' } }}>
+                <Typography variant="h3">
+                    {name}
+                </Typography>
+                <Typography variant="h6">
+                    Exercises keep you strong. {name} {` `}
+                    is one of the best exercises to target your
+{target}. It will help you
+                    improve your mood and gain energy.
+                </Typography>
+```
+[exercise cards details gif fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/exercise%20cards%20details%20gif%20fetched.PNG)<br/>
+Fetch more related videos of one specific video in [ExerciseVideos.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/ExerciseVideos.js):
+```JavaScript
+key={index}
+                      className="exercise-video"
+href={`https://www.youtube.com/watch?v=${item.video.videoId}`}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img src={item.video.thumbnails[0].url}
+alt={item.video.title} />
+ ...
+<Box>
+    <Typography variant="h5" color="#000">
+        {item.video.title}
+    </Typography>
+    <Typography variant="h6" color="#000">
+        {item.video.channelName}
+    </Typography>
+</Box>
+```
+[more related videos on youtube of one specific video.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/more%20related%20videos%20on%20youtube%20of%20one%20specific%20video.PNG)<br/>
+## ***Similar Exercises:***
+To fetch the similar videos attached to a specific video, in [SimilarExercises.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/SimilarExercises.js):
+```JavaScript 
+ <Box sx={{ mt: { lg: '100px', xs: '0' } }}>
+      <Typography variant="h3" mb={5}>Exercises that target the same
+muscle group</Typography>
+      <Stack direction="row" sx={{ p: '2', position: 'relative' }}>
+        {targetMuscleExercises.length ?
+          <HorizontalScrollbar data={targetMuscleExercises} />
+          : <Loader />
+}
+```
+[similar exercises videos fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/similar%20exercises%20videos%20fetched.PNG)<br/>
+Also fetch exercises with the same equipments:
+```JavaScript
+ </Stack>
+      <Typography variant="h3" mb={5}>Exercises that target the same
+equipments</Typography>
+      <Stack direction="row" sx={{ p: '2', position: 'relative' }}>
+        {equipmentExercises.length ?
+          <HorizontalScrollbar data={equipmentExercises} />
+          : <Loader />
+```
+[exercises with same equipment shows as well.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/exercises%20with%20same%20equipment%20shows%20as%20well.PNG)<br/>
+## ***Footer Customization:***
+In [Footer.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/Footer.js):
+```JavaScript
+<Stack gap="40px" alignItems="center" px="40px" pt="24px">
+                <img src = {Logo} alt = "logo"/>
+  ...
+<Typography variant = "h5" pb ="40px" mt="20px">
+    Made with loves by Krystal Zhang
+</Typography>
+```
+[footer done.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/footer%20done.PNG)<br/>
 
 
 
