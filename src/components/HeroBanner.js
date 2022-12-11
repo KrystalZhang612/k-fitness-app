@@ -37,7 +37,7 @@ const HeroBanner = () => {
                     display: { lg: 'block', xs: 'none' }
                 }}
                 fontSize="200px"
-            >
+             >
                 Exercise
             </Typography>
             <img src={HeroBannerImage} alt="banner" className="hero-banner-img" />
