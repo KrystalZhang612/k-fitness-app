@@ -29,7 +29,7 @@ A modern responsive React fitness exercises app with the functionality to choose
 [Tags and Topics]()<br/> 
 # Contribution
 [Author]()
-# Functionalities/Demo
+
 
 
 
