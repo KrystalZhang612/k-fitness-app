@@ -40,7 +40,6 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
         </Box>
     );
 };
-
 ExerciseVideos.propTypes = {
     exerciseVideos: PropTypes.array.isRequired,
     name: PropTypes.string.isRequired,
