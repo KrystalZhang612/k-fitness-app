@@ -362,3 +362,4 @@ In [Footer.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blo
   <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/footer%20done.PNG">&nbsp; 
 </p>
 
+# Tags and Topics
