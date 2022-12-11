@@ -12,6 +12,6 @@ const Footer = () => {
                 </Typography>
             </Stack>
         </Box>
-    );
+     );
 };
 export default Footer; 
