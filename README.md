@@ -26,7 +26,7 @@ A modern responsive React fitness exercises app with the functionality to choose
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#synchronous-developing-notes)<br/>
 [Debugging & Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#debugging--troubleshooting)<br/> 
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#testing-result)<br/> 
-[Tags and Topics]()<br/> 
+[Tags and Topics](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#tags-and-topics)<br/> 
 # Contribution
 [Author]()
 # Compatiability 
