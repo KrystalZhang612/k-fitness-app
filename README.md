@@ -344,5 +344,5 @@ In [Footer.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blo
 ```
 [footer done.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/footer%20done.PNG)<br/>
 
-
+# Testing Result 
 
