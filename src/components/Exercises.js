@@ -61,11 +61,9 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         </Box>
     );
 };
-
 Exercises.propTypes = {
     exercises: PropTypes.array.isRequired,
     setExercises: PropTypes.func.isRequired,
     bodyPart: PropTypes.string.isRequired,
 };
-
 export default Exercises; 
