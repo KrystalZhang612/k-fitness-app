@@ -37,5 +37,5 @@ A modern responsive React fitness exercises app with the functionality to choose
 | node js 16.15.1+  | ✅                 |
 | npm 5.6.1+        | :white_check_mark: |
 | yarn 3.0.0+       | ✅                 |
-
+# Method to Run & Test the Project Locally
 
