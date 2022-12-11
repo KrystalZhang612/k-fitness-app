@@ -1,1 +1,2 @@
-
+# K-Fitness App
+A modern responsive React fitness exercises app with the functionality to choose exercise categories and specific muscle groups browse more than a thousand exercises with practical examples pagination exercise details pulling related videos from YouTube displaying similar exercises and much more. Alongside building the App, I have learned a lot of folder and file structure and hooks, a stylish user interface using material UI creation, and API data fetching techniques from unlimited sources using Rapid API.
