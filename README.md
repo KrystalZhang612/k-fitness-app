@@ -25,7 +25,7 @@ A modern responsive React fitness exercises app with the functionality to choose
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#prerequisites--setups)<br/>
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#synchronous-developing-notes)<br/>
 [Debugging & Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#debugging--troubleshooting)<br/> 
-[Testing Result]()<br/> 
+[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#testing-result)<br/> 
 [Tags and Topics]()<br/> 
 # Contribution
 [Author]()
@@ -345,4 +345,20 @@ In [Footer.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blo
 [footer done.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/footer%20done.PNG)<br/>
 
 # Testing Result 
+<p align = "center">
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/navbar%20home%20and%20exercise%20customized.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/hero%20banner%20well%20designed.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/search%20bar%20button%20and%20text%20input%20are%20customized.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/rapid%20api%20search%20data%20fetched.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/body%20parts%20components%20are%20well%20customized.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/legs%20cards%20gif%20results%20showed.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/cards%20with%20two%20buttons%20showed.PNG" >&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/cards%20titles%20showed.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/pages%20slices%20showed.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/exercise%20cards%20details%20gif%20fetched.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/more%20related%20videos%20on%20youtube%20of%20one%20specific%20video.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/similar%20exercises%20videos%20fetched.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/exercises%20with%20same%20equipment%20shows%20as%20well.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/footer%20done.PNG">&nbsp; 
+</p>
 
