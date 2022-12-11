@@ -23,7 +23,7 @@ A modern responsive React fitness exercises app with the functionality to choose
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#prerequisites--setups)<br/>
-[Synchronous Developing Notes]()<br/>
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#synchronous-developing-notes)<br/>
 [Debugging & Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/README.md#debugging--troubleshooting)<br/> 
 [Testing Result]()<br/> 
 [Tags and Topics]()<br/> 
@@ -124,16 +124,6 @@ Start the web server at localhost:3000:
 ```bash
 npm start
 ```
-# Synchronous Developing Notes
-
-
-
-
-
-
-
-
-
 
 # Debugging & Troubleshooting
 - Web server console error:
@@ -142,7 +132,89 @@ npm start
  ```JavaScript 
  import ReactDOM from 'react-dom/client';
  ```
-- 
+- Eslint Error. DEBUGGING: To disable Eslint error from popping out, install above Vscode Eslint
+extension and right click to Disable Eslint at workplace. 
+- Eslint Compiled Error: `XXX is missing in props validation react/prop-types.` DEBUGGING: At
+certain file, do `import PropTypes from 'prop-types'`; Then right before the `export default FILENAME`, do `FILENAME.propTypes = {XXX: PropTypes.XXX’S DATA TYPE[REFRESH CONSOLE ELEMENT TO SEE].isRequired,...}`
+
+# Synchronous Developing Notes
+## ***NavBar:***
+Customize NavBar sections styles in [Navbar.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/Navbar.js):
+```JavaScript 
+<Stack direction="row"
+justifyContent="space-around"
+sx={{
+    gap: { sm: '122px', xs: '40px' },
+    mt: { sm: '32px', xs: '20px' },
+    justifyContent: 'none'
+}} px = "20px">
+<Link to="/">
+    <img src={Logo} alt="logo" style={{
+        width: '48px',
+        height: '48px', margin: '0 20px'
+```
+[navbar home and exercise customized.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/navbar%20home%20and%20exercise%20customized.PNG)<br/> 
+## ***Hero Banner Customization:***
+Customize hero banner get better design in [HeroBanner.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/HeroBanner.js):
+```JavaScript 
+</Typography>
+ ...
+<Button variant="contained"
+    color="error" href="#exercises"
+    sx={{
+        backgroundColor: '#ff2625',
+        padding: '10px'
+    }}
+>Explore Exercises</Button>
+<Typography
+```
+[hero banner well designed.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/hero%20banner%20well%20designed.PNG)<br/>
+## ***Search Exercises Customization:***
+Customize hover search bar and button at footer in [SearchExercises.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/SearchExercises.js):
+```JavaScript
+<Button className="search-btn"
+                    sx={{
+ 
+bgcolor: '#FF2625',
+                        color: '#fff',
+                        textTransform: 'none',
+                        width: { lg: '175px', xs: '80px' },
+                        fontSize: { lg: '20px', xs: '14px' },
+                        height: '56px',
+                        position: "absolute",
+right: '0' }}
+                    onClick={handleSearch}>
+```
+[search bar button and text input are customized.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/search%20bar%20button%20and%20text%20input%20are%20customized.PNG)<br/> 
+## ***Fetch Data:***
+Obtain API keys and needed data from RapidAPI, fetch search exercises data in [SearchExercises.js](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/src/components/SearchExercises.js):
+```JavaScript 
+const SearchExercises = () => {
+    const [search, setSearch] = useState('')
+    const handleSearch = async () => {
+        if (search) {
+            const exercisesData = await fetchData(
+                'https://exercisedb.p.rapidapi.com/exercises',
+exerciseOptions);
+            console.log(exercisesData);
+...
+```
+Now test SEARCH button, data fetched at localhost:3000/#exercises:<br/>
+[rapid api search data fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-K-Fitness-App/blob/main/testing-result-k-fitness-app/rapid%20api%20search%20data%20fetched.PNG)<br/>
+Install scroll menu:
+```bash 
+ npm install react-horizontal-scrolling-menu
+```
+## ***Body Parts Components:***
+
+
+
+
+
+
+
+
+
 
 
 
