@@ -46,10 +46,33 @@ A modern responsive React fitness exercises app with the functionality to choose
 ### Download `npm version 5.6.1 or higher` after installing node.
 ### To check your version of npm, run: `npm --version`
 ### Download the entire project folder and open it with any IDE.
-### Obtain a free ExerciseDB API at  https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb
-### Replace `YOUR EXERCISEDB API` in fetchData.js  with the obtained API.
-### Obtain a free YoutubeDownloadSearch API at  https://rapidapi.com/h0p3rwe/api/youtube-search-and-download
-### Replace `YOUR YOUTUBE DOWNLOAD AND SEARCH API` in fetchData.js with the obtained API.
+Create a new file named `fetchData.js` in `src/utils`
+```javascript
+export const exerciseOptions = {
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
+    'X-RapidAPI-Key': 'YOUR EXERCISEDB API'
+  }
+};
+export const youtubeOptions = {
+  method: 'GET',
+  url: 'https://youtube-search-and-download.p.rapidapi.com/video/related',
+  headers: {
+    'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com',
+    'X-RapidAPI-Key': 'YOUR YOUTUBE DOWNLOAD AND SEARCH API'
+  }
+};
+export const fetchData = async (url, options) => {
+  const response = await fetch(url, options);
+  const data = await response.json();
+  return data;
+}; 
+```
+Obtain a free ExerciseDB API at  https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb<br/>
+Replace `YOUR EXERCISEDB API` in fetchData.js  with the obtained API.<br/> 
+Obtain a free YoutubeDownloadSearch API at  https://rapidapi.com/h0p3rwe/api/youtube-search-and-download <br/> 
+Replace `YOUR YOUTUBE DOWNLOAD AND SEARCH API` in fetchData.js with the obtained API.
 ### Navigate to the project folder in local CMD
 ### Install all necessary dependencies by running: `npm install`
 ### `npm install axios`
